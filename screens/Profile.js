@@ -13,18 +13,7 @@ import { AuthContext } from "../Store/AuthContext";
 import Cards from "../Components/Cards";
 import CustomButton from "../Components/Button";
 
-const courses = [
-  {
-    icon: require("../assets/checked.png"),
-    title: "Data Structure and Algorithm",
-    subtitle: "70% complete",
-  },
-  {
-    icon: require("../assets/checked.png"),
-    title: "React and Redux",
-    subtitle: "get started",
-  },
-];
+import { courses } from "../Modal/Data";
 
 function Profile() {
   const authContext = useContext(AuthContext);

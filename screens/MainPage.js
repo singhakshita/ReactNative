@@ -16,28 +16,7 @@ import Header from "../Components/Header";
 import Cards from "../Components/Cards";
 import Footer from "../Components/Footer";
 
-const data = [
-  {
-    icon: require("../assets/selfPaced.png"),
-    title: "Self Paced Course",
-    subtitle: "Learn and Upskill via online Courses",
-  },
-  {
-    icon: require("../assets/liveclass.png"),
-    title: "Live Classes",
-    subtitle: "Live classes offering Guaranteed Job Placement support",
-  },
-  {
-    icon: require("../assets/computer.png"),
-    title: "Interactive Practice  Platforms",
-    subtitle: "Learn through Hands-on coding Experiences",
-  },
-  {
-    icon: require("../assets/corporate.png"),
-    title: "For Corporates",
-    subtitle: "Meet your hiring needs at ease",
-  },
-];
+import { data } from "../Modal/Data";
 
 function MainPage() {
   return (
